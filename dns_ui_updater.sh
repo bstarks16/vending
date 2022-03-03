@@ -5,7 +5,7 @@ echo "written by Brian Starks & Jessica Davis - CHI L2"
 read -p "Press enter to continue."
 scp signifi@10.248.48.14:~/dns_changer.sh .
 clear
-bash sudo ~/dns_changer.sh 
+bash ~/dns_changer.sh 
 clear
 read -p "DNS Update Complete. Press Enter to Continue"
 sudo apt install git
