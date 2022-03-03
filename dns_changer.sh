@@ -8,5 +8,5 @@ echo Please enter your DNS address
 
 read dns
 
-echo  nameserver $dns >> /etc/resolvconf/resolv.conf.d/head
+sudo echo  nameserver $dns >> /etc/resolvconf/resolv.conf.d/head
 sudo systemctl restart resolvconf.service
