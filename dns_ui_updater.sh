@@ -7,7 +7,7 @@ sudo apt install git
 git clone https://github.com/bstarks16/vending.git
 cd vending/
 clear
-bash dns_changer.sh 
+sudo bash dns_changer.sh 
 clear
 read -p "DNS Update Complete. Press Enter to Continue"
 clear
