@@ -1,7 +1,4 @@
 #!bin/bash
-echo "Vending Machine and DNS Updatert" 
-echo "written by Brian Starks & Jessica Davis - CHI L2"
-read -p "Press enter to continue."
 sudo apt install git
 git clone https://github.com/bstarks16/vending.git
 cd vending
