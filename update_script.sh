@@ -12,4 +12,5 @@ echo "Please enter the password to complete setup: "
 sudo sshpass scp signifi@10.248.48.14:~/Downloads/UI/UI .
 sudo chmod 755 UI
 sudo rm ~/dns_ui_update.sh
+sudo rm -R ~/vending
 sudo reboot
